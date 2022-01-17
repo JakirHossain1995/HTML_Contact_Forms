@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JS</title>
+    <link rel="stylesheet" href="javaScripStyle.css">
+</head>
+<body >
+    <form action="">
+       <h1>Contact Form</h1>
+        <div class="name">
+            <div>Your Name:</div>
+            <input type="text" name="customerName"  placeholder="Your Full Name">
+        </div>
+        <div class="name">
+            <div>Your Email:</div>
+            <input type="email" name="emailAddr" placeholder="Valid Email Address">
+        </div>
+        <div class="name">
+            <div>Message:</div>
+            <input type="text" name="customeMessage" placeholder="Your Message to Us">
+        </div>
+        <div class="name">
+            <div>Subject:</div>
+            <input name="subjectSelected" list="subjects" placeholder="Choose subjects">
+            <datalist id="subjects">
+                <option value="JavaScript"></option>
+                <option value="Java"></option>
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+                <option value="Python"></option>
+                <option value="PHP"></option>
+            </datalist>
+        </div>
+        <input type="button" id= "submitButton" value="Submit">
+    </form>
+    <script src="newDemo.js"></script>
+</body>
+</html>
