@@ -1,12 +1,12 @@
+/* Demo JavaScript file for exercising different features*/
+
 //const { reverse } = require("lodash");
-
-
-let namasteBtn = document.querySelector('button');
+/* let namasteBtn = document.querySelector('button');
 namasteBtn.addEventListener('click', showAlet);
 
 function showAlet(){
     alert("you have clieck the namaste button");
-}
+} */
 
 
 /*  for( let i=0; i<10; ){
@@ -14,24 +14,24 @@ function showAlet(){
      i++
  } */
 
-let animal={
+/* let animal={
     name: 'Zebra', leg: 4
 }
 
-for( let key in animal){
-    //console.log(key, animal[key]);
-}
+ for( let key in animal){
+    console.log(key, animal[key]);
+}  
 
 let storeItem ={
     name: "Flowers",
     price: 40,
     dicount: 25,
     itemCode: "F40"
-}
+}*/
 
 
 //Creating objects using constructor function
-function Product(name, price, discount, itemCode){
+/* function Product(name, price, discount, itemCode){
     this.name = name;
     this.price = price;
     this.discount = discount;
@@ -45,8 +45,8 @@ let productObject = new Product("Flower", 3000, 25, "F40");
 
 let arr = [1,5,6,8,"jakir" ];
 
-/* console.log(arr.push(null));
-console.log(arr); */
+console.log(arr.push(null));
+console.log(arr);
 
 let obj1 = {
     primarySkill: "JavaScript",
@@ -62,14 +62,14 @@ let obj2 = {
     isActive: true,
     age: 26,
     college: "IIT"
-}
+} */
 
 /* var user1 = {name : "nerd", org: "dev"};
 var user2 = {name : "nerd", org: "dev"};
 var eq = JSON.stringify(user1) === JSON.stringify(user2); */
 
 //const isEqual = Object.toJSON(obj1) == Object.toJSON(obj2);
-const isEqual = JSON.stringify(obj1) === JSON.stringify(obj2);
+//const isEqual = JSON.stringify(obj1) === JSON.stringify(obj2);
 
 
 /* let arrNames = ["Aman", "chele", "jakir", "Nizam"];
@@ -81,7 +81,7 @@ arrNames.forEach( (element, index) =>
 //Array Exercise
 
 
-let a=15, b= 25;
+//let a=15, b= 25;
 //[a, b] = [b, a];
 //b = [a, a=b][0];
 //console.log("the value of a ", a);

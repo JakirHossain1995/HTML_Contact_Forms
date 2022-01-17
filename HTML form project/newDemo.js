@@ -1,3 +1,5 @@
+/* Demo JavaScript file for exercising different features*/
+
 // call(), apply)(), bind()
 
 /* let  sayHello = ()=>{
@@ -66,11 +68,9 @@ x= x-y;
 */
 
 //Hoisting
- 
-
- function getName(){
+ /* function getName(){
    console.log(x);
  }
  var x = 7;
 
- getName();
+ getName(); */
